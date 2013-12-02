@@ -1,0 +1,14 @@
+Source: vx-migasfree-client
+Section: utils
+Priority: extra
+Maintainer: Alberto Gacías <alberto@migasfree.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/vitalinux/vx-migasfree-client
+
+Package: vx-migasfree-client
+Architecture: all
+Pre-Depends: migasfree-client, vx-utils,
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Configuration software distribution
+ Vitalinux packages distribution system migasfree based.
