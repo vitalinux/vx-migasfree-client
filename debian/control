@@ -8,6 +8,9 @@ Homepage: https://github.com/vitalinux/vx-migasfree-client
 
 Package: vx-migasfree-client
 Architecture: all
+Provides: virtual-migasfree-client
+Conflicts: virtual-migasfree-client
+Replaces: virtual-migasfree-client
 Pre-Depends: migasfree-client, vx-utils,
 Depends: ${misc:Depends}, ${python:Depends}
 Description: Configuration software distribution
