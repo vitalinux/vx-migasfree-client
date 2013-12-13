@@ -13,5 +13,5 @@ Conflicts: virtual-migasfree-client
 Replaces: virtual-migasfree-client
 Pre-Depends: migasfree-client, vx-utils,
 Depends: ${misc:Depends}, ${python:Depends}
-Description: Configuration software distribution
+Description: Nodo Vitalinux-base (VX@vitalinux.unizar.es)
  Vitalinux packages distribution system migasfree based.

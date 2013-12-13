@@ -1,11 +1,17 @@
+vx-migasfree-client (1.0-3) unstable; urgency=low
+
+  * Changed Description of package
+
+ -- Alberto Gacias <alberto@migasfree.org>  Mon, 13 Dec 2013 19:27:47 +0200
+
 vx-migasfree-client (1.0-2) unstable; urgency=low
 
   * Convert to virtual package: virtual-migasfree-client
 
- -- Alberto Gacias <alberto@migasfree.org>  Mon, 03 Dic 2013 17:18:47 +0200
+ -- Alberto Gacias <alberto@migasfree.org>  Mon, 03 Dec 2013 17:18:47 +0200
 
 vx-migasfree-client (1.0-1) unstable; urgency=low
 
   * divert de /etc/migasfree.conf
 
- -- Alberto Gacias <alberto@migasfree.org>  Mon, 02 Dic 2013 18:22:47 +0200
+ -- Alberto Gacias <alberto@migasfree.org>  Mon, 02 Dec 2013 18:22:47 +0200
