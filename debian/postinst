@@ -23,10 +23,6 @@ case "$1" in
         # configuration change migasfree-client package
         vx-divert-add vx-migasfree-client
 
-        # remove migasfree-keys
-        rm /root/.migasfree-keys/migasfree-client.pri || :
-        rm /root/.migasfree-keys/migasfree-server.pub || :
-
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
