@@ -1,3 +1,9 @@
+vx-migasfree-client (1.2-3) unstable; urgency=low
+
+  * Changed server to migasfree.vitalinux.org
+
+ -- Alberto Gacias <alberto@migasfree.org>  Sat, 28 Dec 2013 19:39:47 +0200
+
 vx-migasfree-client (1.1-3) unstable; urgency=low
 
   * Changed version to VITALINUX (close #2)
