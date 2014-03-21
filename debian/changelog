@@ -1,3 +1,9 @@
+vx-migasfree-client (1.2-4) unstable; urgency=low
+
+  * vx-divert-remove in prerm (close #3)
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Fri, 21 Mar 2014 09:31:47 +0200
+
 vx-migasfree-client (1.2-3) unstable; urgency=low
 
   * Changed server to migasfree.vitalinux.org
