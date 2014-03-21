@@ -20,19 +20,13 @@ set -e
 
 
 case "$1" in
-    remove)
-            vx-divert-remove vx-migasfree-client
-    ;;
-
     purge)
-
-            # remove migasfree-keys
-            rm /root/.migasfree-keys/migasfree-client.pri || :
-            rm /root/.migasfree-keys/migasfree-server.pub || :
-
+        # remove migasfree-keys
+        rm /root/.migasfree-keys/migasfree-client.pri || :
+        rm /root/.migasfree-keys/migasfree-server.pub || :
     ;;
 
-    upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+    remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
     ;;
 
     *)
