@@ -11,7 +11,7 @@ Architecture: all
 Provides: virtual-migasfree-client
 Conflicts: virtual-migasfree-client
 Replaces: virtual-migasfree-client
-Pre-Depends: migasfree-client, vx-utils,
-Depends: ${misc:Depends}, ${python:Depends}
+Pre-Depends: migasfree-client, vx-utils
+Depends: ${misc:Depends}
 Description: Nodo VITALINUX (VITALINUX@migasfree.vitalinux.org)
  Vitalinux packages distribution system migasfree based.
