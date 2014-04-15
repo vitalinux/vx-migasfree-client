@@ -18,11 +18,11 @@ set -e
 
 
 case "$1" in
-    remove|upgrade|deconfigure)
-        if [ "remove" = "$1" ]
-        then
-            vx-divert-remove vx-migasfree-client
-        fi
+    remove)
+        vx-divert-remove $DPKG_MAINTSCRIPT_PACKAGE || :
+    ;;
+
+    upgrade|deconfigure)
     ;;
 
     failed-upgrade)
