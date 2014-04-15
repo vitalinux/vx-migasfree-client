@@ -1,3 +1,9 @@
+vx-migasfree-client (1.2-5) unstable; urgency=low
+
+  * Close #4
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Tue, 15 Apr 2014 10:14:47 +0200
+
 vx-migasfree-client (1.2-4) unstable; urgency=low
 
   * vx-divert-remove in prerm (close #3)
