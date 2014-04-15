@@ -20,9 +20,7 @@ set -e
 
 case "$1" in
     configure)
-        # configuration change migasfree-client package
-        vx-divert-add vx-migasfree-client
-
+        vx-divert-add $DPKG_MAINTSCRIPT_PACKAGE
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
